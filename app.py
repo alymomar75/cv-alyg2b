@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Configuration
+# Config
 st.set_page_config(page_title="CV de Aly", layout="wide")
 
 # --- Titre principal ---
