@@ -1,43 +1,27 @@
 import streamlit as st
 
-# Configuration de la page
+# Configuration
 st.set_page_config(page_title="CV Aly Momar Diallo", layout="wide")
 
-# --- STYLE CSS PERSONNALISÉ ---
+# --- STYLE CSS ---
 st.markdown("""
     <style>
-    /* Fond clair pour la partie principale */
-    .stApp {
-        background: #f9f9f9;
-        color: #000000;
-    }
-
-    h1, h2, h3 {
-        color: #003366 !important;
-    }
-
+    .stApp {background: #f9f9f9; color: #000;}
+    h1, h2, h3 {color: #003366 !important;}
     .content-box {
-        background-color: rgba(0, 51, 102, 0.05);
-        padding: 20px;
-        border-radius: 15px;
-        border: 1px solid rgba(0, 51, 102, 0.2);
-        margin-bottom: 20px;
+        background: rgba(0,51,102,0.05);
+        padding: 15px; border-radius: 10px; margin-bottom: 15px;
     }
-
-    /* Sidebar foncée */
     [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #001f3f 0%, #003366 100%);
+        background: linear-gradient(180deg,#001f3f 0%,#003366 100%);
         color: white;
     }
-
-    [data-testid="stSidebar"] h1, 
-    [data-testid="stSidebar"] h2, 
-    [data-testid="stSidebar"] h3, 
-    [data-testid="stSidebar"] p {
+    [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, 
+    [data-testid="stSidebar"] h3, [data-testid="stSidebar"] p {
         color: white !important;
     }
     </style>
-    """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 # --- SIDEBAR ---
 with st.sidebar:
@@ -46,31 +30,39 @@ with st.sidebar:
     st.write("🏠 Dakar, Sénégal")
     st.write("📧 [alymomardiallo75@gmail.com](mailto:alymomardiallo75@gmail.com)")
     st.write("📞 sur demande")
-    st.markdown("---")
     st.info("Contactez-moi par mail pour la disponibilité")
 
 # --- EN-TÊTE ---
 st.title("Étudiant en Géomatique")
 st.markdown("""
 <div class="content-box">
-   Étudiant en 2ème année de géomatique au CEDT-G15, je recherche un stage durant les vacances à partir de juillet 2026 afin de mettre en pratique et d’approfondir mes connaissances dans des projets liés à la géomatique. Je suis motivé et prêt à intégrer une équipe professionnelle.
+   Étudiant en 2ème année de géomatique au CEDT-G15, je recherche un stage à partir de juillet 2026 pour mettre en pratique mes connaissances. 
+</div>
+""", unsafe_allow_html=True)
+
+# --- EXPÉRIENCES ---
+st.header("🏗️ Expériences")
+st.markdown("""
+<div class="content-box">
+    <strong>Stage</strong><br>
+    - Juillet à Octobre 2025<br>
+    - Direction Générale des Impôts et Domaines de Guédiawaye<br>
+    - Poste : Stagiaire en géomatique
 </div>
 """, unsafe_allow_html=True)
 
 # --- FORMATIONS ---
 st.header("📚 Parcours Académique")
-col_f1, col_f2 = st.columns(2)
-
-with col_f1:
+col1, col2 = st.columns(2)
+with col1:
     st.markdown("""
     <div class="content-box">
         <strong>Diplômes 🎓</strong><br>
-        - BFEM (Août 2021) Institution Saint François d’Assise de Tivaouane Peulh<br>
-        - Baccalauréat (Juillet 2024) Anne Marie Javouhey
+        - BFEM (Août 2021)<br>
+        - Baccalauréat (Juillet 2024)
     </div>
     """, unsafe_allow_html=True)
-
-with col_f2:
+with col2:
     st.markdown("""
     <div class="content-box">
         <strong>CEDT Le G15</strong><br>
@@ -79,27 +71,24 @@ with col_f2:
     """, unsafe_allow_html=True)
 
 # --- COMPÉTENCES ---
-st.header("🛠️ Compétences & Expertises")
-st.markdown("""
-<div class="content-box">
-    <strong>🌐 Géomatique</strong><br>
-    - Acquisition et traitement des données<br>
-    - Topographie<br>
-    - Programmation avec HTML, Python<br>
-    - Collecte de données avec drone<br>
-    - Modélisation sur AutoCAD et SketchUp<br>
-    - Français ★★★★★<br>
-    - Anglais ★★★☆☆
-</div>
-""", unsafe_allow_html=True)
-
-# --- EXPÉRIENCES ---
-st.header("🏗️ Expériences")
-st.markdown("""
-<div class="content-box">
-    <strong>🛠️ Stage</strong><br>
-    - Juillet à Octobre 2025<br>
-    - Direction Générale des Impôts et Domaines de Guédiawaye<br>
-    - Poste : Stagiaire en géomatique
-</div>
-""", unsafe_allow_html=True)
+st.header("🛠️ Compétences")
+col_c1, col_c2 = st.columns(2)
+with col_c1:
+    st.markdown("""
+    <div class="content-box">
+        <strong>Techniques</strong><br>
+        - SIG (QGIS, ArcMap)<br>
+        - Topographie<br>
+        - Programmation (HTML, Python)<br>
+        - Collecte de données avec drone<br>
+        - Modélisation (AutoCAD, SketchUp)
+    </div>
+    """, unsafe_allow_html=True)
+with col_c2:
+    st.markdown("""
+    <div class="content-box">
+        <strong>Langues</strong><br>
+        - Français ★★★★★<br>
+        - Anglais ★★★☆☆
+    </div>
+    """, unsafe_allow_html=True)
