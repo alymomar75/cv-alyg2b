@@ -70,7 +70,7 @@ with col2:
     st.markdown("""
     <div class="content-box">
         <strong>CEDT Le G15</strong><br>
-        🎓 BTS en Géomatique
+        🎓 BTS en Géomatique (actuellement en cours)
     </div>
     """, unsafe_allow_html=True)
 
@@ -84,7 +84,7 @@ with col_c1:
         - SIG (QGIS, ArcMap)<br>
         - Topographie<br>
         - Programmation (HTML, Python)<br>
-        - Collecte de données avec drone<br>
+        - Collecte de données avec Gps, drone<br>
         - Modélisation (AutoCAD, SketchUp)
     </div>
     """, unsafe_allow_html=True)
