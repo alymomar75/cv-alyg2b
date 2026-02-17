@@ -42,7 +42,6 @@ st.markdown("""
 
 # --- SIDEBAR (Infos de contact) ---
 with st.sidebar:
-    st.markdown("<h2 style='text-align: center;'>📍 Contact</h2>", unsafe_allow_html=True)
     st.image("cv.png", width=100)
     st.write("👤 **Aly Momar DIALLO**")
     st.write("🏠 Dakar, Sénégal")
@@ -65,13 +64,11 @@ col_f1, col_f2 = st.columns(2)
 with col_f1:
     st.markdown("""
     <div class="content-box">
-        <strong>Diplome</strong><br>
-        🎓 BFEM
-st.radio Institution Saint François D’assise de Tivaouane Peulh
-Baccalauréat
-juillet 2024
-st.radio Anne Marie Javouhey
-Aout 2021
+        <strong>Diplome🎓 </strong><br>
+ st.write("- BFEM (Aout 2021) Institution Saint François D’assise de Tivaouane Peulh")
+
+ st.write("- Baccalauréat (juillet 2024) Anne Marie Javouhey")
+
     </div>
     """, unsafe_allow_html=True)
 with col_f2:
@@ -84,10 +81,8 @@ with col_f2:
 
 # --- COMPÉTENCES ---
 st.header("🛠️ Compétences & Expertises")
-
-with c1:
-    with st.container():
-        st.subheader("🌐 Géomatique & SIG")
+:
+        st.subheader("🌐actuellement")
         st.markdown("""
        st.subheader("Geomatique")
     st.write("* Acquisition et traitement des données")
