@@ -6,35 +6,42 @@ st.set_page_config(page_title="CV Aly Momar Diallo", layout="wide")
 # --- STYLE CSS PERSONNALISÉ ---
 st.markdown("""
     <style>
+    /* Fond clair pour la partie principale */
     .stApp {
-        background: linear-gradient(180deg, #001f3f 0%, #0074D9 50%, #7FDBFF 100%);
-        color: white;
+        background: #f9f9f9;
+        color: #000000;
     }
+
     h1, h2, h3 {
-        color: #ffffff !important;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        color: #003366 !important;
     }
+
     .content-box {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(0, 51, 102, 0.05);
         padding: 20px;
         border-radius: 15px;
-        border: 1px solid rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(0, 51, 102, 0.2);
         margin-bottom: 20px;
     }
+
+    /* Sidebar foncée */
     [data-testid="stSidebar"] {
-        background-color: #e2f3f7;
-        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        background: linear-gradient(180deg, #001f3f 0%, #003366 100%);
+        color: white;
     }
-    .stMarkdown p, .stMarkdown li {
-        font-size: 1.1rem;
-        line-height: 1.6;
+
+    [data-testid="stSidebar"] h1, 
+    [data-testid="stSidebar"] h2, 
+    [data-testid="stSidebar"] h3, 
+    [data-testid="stSidebar"] p {
+        color: white !important;
     }
     </style>
     """, unsafe_allow_html=True)
 
 # --- SIDEBAR ---
 with st.sidebar:
-    st.image("cv.png", width=100)
+    st.image("cv.png", width=120)
     st.write("👤 **Aly Momar DIALLO**")
     st.write("🏠 Dakar, Sénégal")
     st.write("📧 [alymomardiallo75@gmail.com](mailto:alymomardiallo75@gmail.com)")
