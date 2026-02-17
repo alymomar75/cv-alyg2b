@@ -36,7 +36,11 @@ with st.sidebar:
 st.title("Étudiant en Géomatique")
 st.markdown("""
 <div class="content-box">
-   Étudiant en 2ème année de géomatique au CEDT-G15, je recherche un stage à partir de juillet 2026 pour mettre en pratique mes connaissances. 
+  Etudiant en 2ème année de geomatique au CEDT-G15, 
+  je recherche un stage durant les vacances 
+  à partir de juillet 2026 afin de mettre en pratique et 
+  d’approfondir mes connaissances dans des projets liés à la géomatique.
+  je suis motivé et prêt à intégrer une équipe professionnelle. 
 </div>
 """, unsafe_allow_html=True)
 
