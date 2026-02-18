@@ -46,15 +46,12 @@ st.markdown("""
 # --- EXPÉRIENCES ---
 st.header("🏗️ Expériences professionnelles")
 st.markdown("""
-col1, col2 = st.columns([3,1])
-with col1:
-    st.markdown("**Stage**")
-    st.markdown("Direction Générale des Impôts et Domaines de Guédiawaye")
-    st.markdown("Poste : Stage en géomatique")
-with col2:
-    st.markdown("(Juillet – Octobre 2025)")
+ <div>
+  <p><strong>Stage</strong> (Juillet – Octobre 2025)<br>
+  Direction Générale des Impôts et Domaines de Guédiawaye<br>
+  Poste : Stage en géomatique</p>
+</div>"""),
 
-""", unsafe_allow_html=True)
 
 # --- FORMATIONS ---
 st.header("📚 Parcours Académique")
@@ -105,4 +102,3 @@ with col_c2:
         - Français ★★★★★<br>
         - Anglais ★★★☆☆
     </div>
-    """, unsafe_allow_html=True)
