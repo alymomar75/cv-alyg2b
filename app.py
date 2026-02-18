@@ -46,11 +46,17 @@ st.markdown("""
 # --- EXPÉRIENCES ---
 st.header("🏗️ Expériences professionnelles")
 st.markdown("""
-<div>
-  <p><strong>Stage</strong> (Juillet – Octobre 2025)<br>
-  Direction Générale des Impôts et Domaines de Guédiawaye<br>
-  Poste : Stage en géomatique</p>
-</div>
+st.markdown(
+    """
+    <div style="background-color:#f0f0f0; padding:10px; border-radius:5px;">
+        <p><strong>Stage</strong> (Juillet – Octobre 2025)<br>
+        Direction Générale des Impôts et Domaines de Guédiawaye<br>
+        Poste : Stage en géomatique</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
 """, unsafe_allow_html=True)
 
@@ -59,16 +65,22 @@ st.header("📚 Parcours Académique")
 col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
- <div>
-  <p><strong>2026 – Présent</strong>: En cours<br>
-  BTS Géomatique – CEDT G15</p>
+ st.markdown(
+    """
+    <div style="background-color:#f0f0f0; padding:10px; border-radius:5px;">
+        <p><strong>2026 – Présent</strong> (En cours)<br>
+        BTS Géomatique – CEDT G15</p>
 
-  <p><strong>2024</strong><br>
-  Baccalauréat (Juillet 2024)</p>
+        <p><strong>2024</strong> (Juillet 2024)<br>
+        Baccalauréat</p>
 
-  <p><strong>2021</strong><br>
-  BFEM (Août 2021)</p>
-</div>
+        <p><strong>2021</strong> (Août 2021)<br>
+        BFEM</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
     """, unsafe_allow_html=True)
 with col2:
