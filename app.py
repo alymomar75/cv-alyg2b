@@ -29,7 +29,6 @@ with st.sidebar:
     st.write("👤 **Aly Momar DIALLO**")
     st.write("🏠 Dakar, Sénégal")
     st.write("📧 [alymomardiallo75@gmail.com](mailto:alymomardiallo75@gmail.com)")
-    st.write("📞 sur demande")
     st.info("Contactez-moi par mail pour la disponibilité")
 
 # --- EN-TÊTE ---
@@ -45,13 +44,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- EXPÉRIENCES ---
-st.header("🏗️ Expériences")
+st.header("🏗️ Expériences professionnelles")
 st.markdown("""
 <div class="content-box">
     <strong>Stage</strong><br>
     - Juillet à Octobre 2025<br>
     - Direction Générale des Impôts et Domaines de Guédiawaye<br>
-    - Poste : Stagiaire en géomatique
+    - Poste : Stage en géomatique
 </div>
 """, unsafe_allow_html=True)
 
