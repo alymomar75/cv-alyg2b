@@ -25,7 +25,7 @@ st.markdown("""
 
 # --- SIDEBAR ---
 with st.sidebar:
-    st.image("cv.png", width=120)
+    st.image("cv.png", width=220)
     st.write("👤 **Aly Momar DIALLO**")
     st.write("🏠 Dakar, Sénégal")
     st.write("📧 [alymomardiallo75@gmail.com](mailto:alymomardiallo75@gmail.com)")
