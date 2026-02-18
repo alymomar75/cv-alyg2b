@@ -46,12 +46,12 @@ st.markdown("""
 # --- EXPÉRIENCES ---
 st.header("🏗️ Expériences professionnelles")
 st.markdown("""
-<div class="content-box">
-    <strong>Stage</strong><br>
-    - Juillet à Octobre 2025<br>
-    - Direction Générale des Impôts et Domaines de Guédiawaye<br>
-    - Poste : Stage en géomatique
+<div>
+  <p><strong>Stage</strong> (Juillet – Octobre 2025)<br>
+  Direction Générale des Impôts et Domaines de Guédiawaye<br>
+  Poste : Stage en géomatique</p>
 </div>
+
 """, unsafe_allow_html=True)
 
 # --- FORMATIONS ---
