@@ -59,11 +59,17 @@ st.header("📚 Parcours Académique")
 col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
-    <div class="content-box">
-        <strong>Diplômes 🎓</strong><br>
-        - BFEM (Août 2021)<br>
-        - Baccalauréat (Juillet 2024)
-    </div>
+ <div>
+  <p><strong>2026 – Présent</strong>: En cours<br>
+  BTS Géomatique – CEDT G15</p>
+
+  <p><strong>2024</strong><br>
+  Baccalauréat (Juillet 2024)</p>
+
+  <p><strong>2021</strong><br>
+  BFEM (Août 2021)</p>
+</div>
+
     """, unsafe_allow_html=True)
 with col2:
     st.markdown("""
