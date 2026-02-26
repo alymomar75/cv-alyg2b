@@ -99,7 +99,7 @@ with col_c2:
     st.markdown("""
     <div class="content-box">
         <strong>Langues</strong><br>
-        - Français ★★★★★ Niveau C2<br>
-        - Anglais ★★★☆☆ Niveau B1/B2
+        - Français ★★★★★ (Niveau C2)<br>
+        - Anglais ★★★☆☆ (Niveau B2)
     </div>
     """, unsafe_allow_html=True)
