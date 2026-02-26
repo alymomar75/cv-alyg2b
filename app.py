@@ -62,15 +62,12 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
     <div class="content-box">
-      <p><strong>2026 – Présent</strong> (En cours)<br>
+      <p><strong>2024 – Présent</strong> (En cours)<br>
       BTS Géomatique – CEDT G15</p>
-   <p><strong>2026 – Présent</strong> (En cours)<br>
+   <p><strong>2024 – Présent</strong> (En cours)<br>
       Licence en art graphique et numérique – UVS </p>
       <p><strong>2024</strong> (Juillet 2024)<br>
       Baccalauréat</p>
-
-      <p><strong>2021</strong> (Août 2021)<br>
-      BFEM</p>
     </div>
     """, unsafe_allow_html=True)
 
