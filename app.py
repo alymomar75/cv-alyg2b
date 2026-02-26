@@ -64,7 +64,8 @@ with col1:
     <div class="content-box">
       <p><strong>2026 – Présent</strong> (En cours)<br>
       BTS Géomatique – CEDT G15</p>
-
+   <p><strong>2026 – Présent</strong> (En cours)<br>
+      Licence en art graphique et numérique – UVS </p>
       <p><strong>2024</strong> (Juillet 2024)<br>
       Baccalauréat</p>
 
